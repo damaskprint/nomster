@@ -1,3 +1,9 @@
+require 'carrierwave/storage/abstract'
+require 'carrierwave/storage/file'
+require 'carrierwave/storage/fog'
+require 'fog-aws'
+
+
 CarrierWave.configure do |config|
   config.fog_provider = 'fog/aws'                        # required
   config.fog_public = false
