@@ -85,8 +85,9 @@
         </button>
         <h4 class="modal-title" id="myModalLabel">Add a Comment</h4>
       </div>
-      <div class="modal-body">
+      
         <%= simple_form_for @comment, url: place_comments_path(@place) do |f| %>
+        <div class="modal-body">
           <%= f.input :message %>
           <%= f.input :rating, as: :select, collection: Comment::RATINGS %>
       
