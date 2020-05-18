@@ -1,24 +1,9 @@
-# README
+ # Nomster
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+ This application was made to use features like other popular apps that rate a particular site. To make a comment or add a location in the database, a user account will need to be created. All locations, ratings, and comments are saved and displayed in the user's account.
+ The App was created with Ruby on Rails and the Google Maps API.
 
-Things you may want to cover:
 
-* Ruby version
+ Visit the Site: [Nomster](https://nomster-philip-cox.herokuapp.com/)
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ ![Nomster Image](https://philipcox.netlify.app/nomster.png)
